@@ -16,7 +16,7 @@ app.use("/users",userController);
 
 app.post("/register",register);
 
-app.post("login",login);
+app.post("/login",login);
 
 app.use("/todos",todoController);
 
